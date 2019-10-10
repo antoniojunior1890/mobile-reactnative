@@ -15,6 +15,8 @@ export default function Login({ navigation }) {
                navigation.navigate('List');
             }
         })
+        // AsyncStorage.removeItem('user');
+        // AsyncStorage.removeItem('techs');
     }, []);
 
     async function handleSubmit(){
